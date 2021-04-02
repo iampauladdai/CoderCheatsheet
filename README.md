@@ -61,6 +61,15 @@ Text("Hello world!")
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.gray, lineWidth: 4))
             .shadow(radius: 7)
+
+    //add custom SF symbols
+    Image(systemName: "SF Name")
+
+    //add corner radius to Image
+    .cornerRadius(5)
+
+    //add border to Image
+    .border(Color("colorName"), width: 20)
    
 ```
 
@@ -96,6 +105,18 @@ Text("Hello world!")
     //view multiple preview screens
      Group { }
 
+    //dark mode 😎
+    .colorScheme(.dark)
+    .background(Color.black)
+
+    //align stack
+    VStack(alignment: .leading){ }
+
     //pass state variable (works like "self.")
     $state_variable
+
+    //corner background
+    .background(RoundedRectangle(cornerRadius: 8)
+    .foregroundColor(.white)
+    .shadow(color: Color("Shadow"), radius: 8, x: 0, y: 4))
 ```
