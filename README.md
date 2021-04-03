@@ -51,6 +51,10 @@ Text("Hello world!")
 ```swift
     //load image
     Image("turtlerock")
+
+    //make image resizable to fit screen
+    .resizable()
+    .scaledToFit()
     
     //create circle shape
     Image("turtlerock")
@@ -70,6 +74,9 @@ Text("Hello world!")
 
     //add border to Image
     .border(Color("colorName"), width: 20)
+
+    //fill stack with layer
+    .layerPriority(1)
    
 ```
 
@@ -82,9 +89,13 @@ Text("Hello world!")
 
     //set size (takes at least one parameter)
      .frame(width: 200, height: 30, alignment: .topLeading)
+    //or
+     .frame(minWidth: 200, idealWidth: 300,maxWidth: 400, minHeight: 30, idealHeight: 50, maxHeight: 60, alignment: .topLeading)
     
     //set position
-     .offset(y: -130)
+     .offset(x: 20 y: -130)
+
+    //padding
      .padding(.bottom, -130)
 
     //ignore safeArea
