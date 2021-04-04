@@ -32,11 +32,11 @@
 
 
 
-# AWS cognito Authentication
+# AWS Cognito Authentication
 
 1. Open terminal, navigate to project directory and type ```amplify add auth```
 
-2. Set authentication to ```Default Configuration```
+2. Set authentication to ```Default configuration with Social Provider (Federation)```
 Follow the steps in the terminal depending on what setting you want to use.
 
 3. Use ```amplify status``` to check for any changes and use ```amplify push``` to send your configuration to the cloud
@@ -125,3 +125,5 @@ type Todo @model {
 
 ```Credits```: 
 - [chefThomas](https://gist.github.com/chefThomas)
+
+```AWS Amplify Documentation```: [Here is the Link](https://docs.amplify.aws/lib/auth/social_signin_web_ui/q/platform/ios#setup-your-auth-provider)
