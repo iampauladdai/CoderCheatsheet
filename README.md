@@ -79,7 +79,11 @@ Text("Hello world!")
     .layerPriority(1)
    
 ```
+### Button
 
+```swift
+   Button(action: {}){ }
+```
 
 
 ### Must-know codes
