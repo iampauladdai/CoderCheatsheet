@@ -33,7 +33,18 @@
 
 ```amplify status``` : check status of environment 
 
-``` amplify push ```: push changes to cloud
+``` amplify push ```:will build all your local backend resources and provision it in the cloud
+
+```amplify add <category>```: will allow you to add features like user login or a backend API
+
+
+```amplify console```: opens the AWS Amplify console in browser
+
+```amplify publish```: builds all local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+```amplify remove <category>```to remove an individual resource
+
+```amplify delete``` deletes entire Amplify project
 
 - You can just type ``` amplify``` to get all the commands available!
 
@@ -108,3 +119,8 @@ type Todo @model {
 7. Navigate back to project directory and type ```amplify push```
    
 8.  Follow the self-explanatory steps in the terminal to update your graphql files.
+
+
+
+```Credits```: 
+- [chefThomas](https://gist.github.com/chefThomas)
