@@ -1,4 +1,4 @@
-![AWS Amplify][https://github.com/iampauladdai/CoderCheatsheet/blob/main/AWS%20Amplify/assets/aws.png]
+![alt text][https://github.com/iampauladdai/CoderCheatsheet/blob/main/AWS%20Amplify/assets/aws.png]
 
 # AWS Amplify Cheatsheet
 ## Set up AWS Environment
