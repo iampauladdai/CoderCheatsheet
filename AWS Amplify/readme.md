@@ -29,29 +29,8 @@
 
 
 
-# AWS Commands
-
-```amplify status``` : check status of environment 
-
-``` amplify push ```:will build all your local backend resources and provision it in the cloud
-
-```amplify add <category>```: will allow you to add features like user login or a backend API
 
 
-```amplify console```: opens the AWS Amplify console in browser
-
-```amplify publish```: builds all local backend and frontend resources (if you have hosting category added) and provision it in the cloud
-
-```amplify remove <category>```to remove an individual resource
-
-```amplify delete``` deletes entire Amplify project
-
-- You can just type ``` amplify``` to get all the commands available!
-
-# Terminal Tips
-```cat <filename>```: to open file in terminal
-
-```pwd```: to print current directory.
 
 # AWS cognito Authentication
 
@@ -60,7 +39,7 @@
 2. Set authentication to ```Default Configuration```
 Follow the steps in the terminal depending on what setting you want to use.
 
-3. Use ```amplify status``` to check for any changes and use amplify push to send your configuration to the cloud
+3. Use ```amplify status``` to check for any changes and use ```amplify push``` to send your configuration to the cloud
    
 # Adding Cocoapods
 
@@ -120,7 +99,29 @@ type Todo @model {
    
 8.  Follow the self-explanatory steps in the terminal to update your graphql files.
 
+# AWS Commands
 
+```amplify status``` : check status of environment 
+
+``` amplify push ```:will build all your local backend resources and provision it in the cloud
+
+```amplify add <category>```: will allow you to add features like user login or a backend API
+
+
+```amplify console```: opens the AWS Amplify console in browser
+
+```amplify publish```: builds all local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+```amplify remove <category>```to remove an individual resource
+
+```amplify delete``` deletes entire Amplify project
+
+- You can just type ``` amplify``` to get all the commands available!
+
+# Terminal Tips
+```cat <filename>```: to open file in terminal
+
+```pwd```: to print current directory.
 
 ```Credits```: 
 - [chefThomas](https://gist.github.com/chefThomas)
