@@ -1,3 +1,5 @@
+![AWS Amplify][aws.png]
+
 # AWS Amplify Cheatsheet
 ## Set up AWS Environment
 
