@@ -134,4 +134,10 @@ Text("Hello world!")
     .background(RoundedRectangle(cornerRadius: 8)
     .foregroundColor(.white)
     .shadow(color: Color("Shadow"), radius: 8, x: 0, y: 4))
+
+    //sit ontop of a content
+    .overlay( <overlay_contents> )
+
+    //blur shape or image
+    .blur(radius: 30)
 ```
